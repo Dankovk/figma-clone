@@ -1,29 +1,51 @@
-# Create T3 App
+![alt text](/public/Thumbnail.png)
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+## Overview
 
-## What's next? How do I make an app with this?
+Hi 🤙 In this FREE 11 hour video you'll learn how to build a real-time Figma clone. You'll build features like real-time canvas updates, collaborative tools, advanced shape and text editing, and much more. We'll be using modern technologies such as Next.js 15, React 18, TypeScript and Liveblocks. You'll be able to build along with me from project setup to Vercel deployment.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Features:
+🔄 Real-time canvas updates
+👀 See others' cursors
+🔗 Share rooms
+🛠️ Property editor
+📊 Dashboard
+✏️ Shapes, drawings, and text
+↩️ Undo and redo
+🔀 Manage layer's z-indexes
+🔑 Sign Up And In
+🚀 Vercel Deployment
+📊 Postgres Database
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Setup
+Follow these steps to install and set up the project.
+### Clone the Repository
+```bash
+git clone https://github.com/Andreaswt/figma-clone.git
+```
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+### Navigate to the Project Directory
+```bash
+cd figma-clone
+```
 
-## Learn More
+### Install Node.js
+Download and install Node.js if not already installed. Use the link below for guidance on installation via package manager:
+[Node.js Download](https://nodejs.org/en/download/package-manager/)
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### Install Node Modules
+```bash
+npm install
+```
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### Setup Environment Variables
+Create a `.env` file in the root of the project and add the necessary environment variables listed in `env.js`.
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+### Run the Project
+```bash
+npm run dev
+```
 
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+### Access the Application
+Open your browser and visit:
+[http://localhost:3000](http://localhost:3000)
